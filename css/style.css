@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("../img/fundo.png");
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.navbarra{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 50px;
+    cursor: pointer;
+}
+.menu{
+    width: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+.linha{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.coluna{
+    flex-basis: 50%;
+}
+h1{
+    color: #fff;
+    font-size: 100px;
+
+}
+p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 15px;
+}
+button{
+    width: 180px;
+    color: #000;
+    font-size: 15px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+.cartao{
+    width: 250px;
+    height: 280px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position:  center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.cartao1{
+    background-image: url("../img/ft1.png");
+}
+.cartao2{
+    background-image: url("../img/ft2.png");
+}
+.cartao3{
+    background-image: url("../img/ft3.png");
+}
+.cartao4{
+    background-image: url("../img/ft4.png");
+}
+.cartao:hover{
+    transform: translateY(-10px);
+}
+h5{
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+}
+.cartao p{
+    text-shadow: 0 0 15px #000;
+    font-size: 10px;
+}
